@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(mesa)/layout,_N_T_/(mesa)/asistente/layout,_N_T_/(mesa)/asistente/page,_N_T_/asistente"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KG1lc2Ep/asistente/__PAGE__",
+    "/!KG1lc2Ep/asistente",
+    "/!KG1lc2Ep",
+    "/_index",
+    "/_head"
+  ]
+}

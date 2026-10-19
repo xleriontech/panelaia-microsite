@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[48943,["/_next/static/chunks/02mz4wrpavquc.js","/_next/static/chunks/0nmswrwontwtq.js"],"ViewportBoundary"]
+3:I[48943,["/_next/static/chunks/02mz4wrpavquc.js","/_next/static/chunks/0nmswrwontwtq.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#140e09"}],["$","meta","3",{"name":"color-scheme","content":"dark"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"PanelaIA · PanelaIA"}],["$","meta","1",{"name":"description","content":"Mesa de mando del trapiche comunitario de Nocaima: gemelo 3D, telemetría, trazabilidad por lote y fondo de retiro cooperativo."}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"fg48h87rqP9_s63THBD0J"}

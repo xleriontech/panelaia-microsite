@@ -1,0 +1,3 @@
+module.exports=[96638,a=>{"use strict";var b=a.i(36473);a.s(["default",0,function({reset:a}){return(0,b.jsxs)("main",{className:"mx-auto max-w-xl px-5 py-20",children:[(0,b.jsx)("p",{className:"kicker",children:"Mesa interrumpida"}),(0,b.jsx)("h1",{className:"mt-3 font-display text-5xl text-cream",children:"No se pudo abrir la bitácora."}),(0,b.jsx)("p",{className:"mt-4 text-honey",children:"Verifique PostgreSQL y vuelva a intentar. No continúo con cifras de reemplazo."}),(0,b.jsx)("button",{type:"button",className:"btn btn-primary mt-6",onClick:()=>a(),children:"Reintentar"})]})}])}];
+
+//# sourceMappingURL=EjmeplosUX_EjemploDisenoPanelaIA_src_app_error_tsx_05-j0xc._.js.map

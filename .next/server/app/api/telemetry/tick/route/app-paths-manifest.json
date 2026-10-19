@@ -1,0 +1,3 @@
+{
+  "/api/telemetry/tick/route": "app/api/telemetry/tick/route.js"
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///X:/Programacion/XlerionWeb/EjmeplosUX/EjemploDisenoPanelaIA/src/app/%28mesa%29/loading.tsx"],"sourcesContent":["export default function Loading() {\n  return (\n    <div className=\"grid min-h-[40vh] place-items-center px-6 text-honey\">\n      <p>Abriendo la bitácora del trapiche…</p>\n    </div>\n  );\n}\n"],"names":["Loading","className"],"mappings":";;;;;;AAAe,SAASA;IACtB,qBACE,qRAAC;QAAIC,WAAU;kBACb,cAAA,qRAAC;sBAAE;;;;;;;;;;;AAGT"}}]
+}

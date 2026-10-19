@@ -1,0 +1,3 @@
+module.exports=[98129,a=>{"use strict";var b=a.i(97742),c=a.i(2988);a.s(["default",0,function(){return(0,b.jsxs)("main",{className:"mx-auto max-w-xl px-5 py-20",children:[(0,b.jsx)("p",{className:"kicker",children:"Sin lote"}),(0,b.jsx)("h1",{className:"mt-3 font-display text-5xl text-cream",children:"Ese pasaporte no está en la fase 1."}),(0,b.jsx)("p",{className:"mt-4 text-honey",children:"El código no coincide con un lote de esta mesa. No fabrico un origen."}),(0,b.jsx)(c.default,{href:"/trazabilidad",className:"btn btn-primary mt-6",children:"Volver a la bitácora"})]})}])},49871,a=>{a.n(a.i(98129))}];
+
+//# sourceMappingURL=EjmeplosUX_EjemploDisenoPanelaIA_src_app_origen_%5Bcode%5D_not-found_tsx_0jgx2g8._.js.map

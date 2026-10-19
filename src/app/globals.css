@@ -1,0 +1,261 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #140e09;
+  --color-molasses: #24160e;
+  --color-bark: #5a3822;
+  --color-copper: #c57a45;
+  --color-glow: #e7b07a;
+  --color-amber: #e6a23c;
+  --color-honey: #f3d7a1;
+  --color-cream: #f7f1e7;
+  --color-paper: #fffaf3;
+  --color-cane: #6e8f4e;
+  --color-moss: #1d3118;
+  --color-alert: #c4492c;
+  --color-alert-text: #ffb1a1;
+  --font-display: var(--font-fraunces), "Iowan Old Style", "Palatino Linotype", serif;
+  --font-sans: var(--font-outfit), "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(900px 480px at 0% -10%, rgba(230, 162, 60, 0.16), transparent 55%),
+    radial-gradient(800px 420px at 100% 0%, rgba(110, 143, 78, 0.12), transparent 50%),
+    #140e09;
+  color: #f7f1e7;
+  font-family: var(--font-sans);
+}
+
+body::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.05;
+  background-image: radial-gradient(rgba(255, 250, 243, 0.45) 0.6px, transparent 0.6px);
+  background-size: 3px 3px;
+}
+
+::selection {
+  background: #e6a23c;
+  color: #140e09;
+}
+
+:focus-visible {
+  outline: 2px solid #e6a23c;
+  outline-offset: 3px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.paper {
+  background:
+    linear-gradient(180deg, rgba(255, 250, 243, 0.7), transparent 28%),
+    #fffaf3;
+  color: #1a120b;
+  border: 1px solid rgba(197, 122, 69, 0.35);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.22);
+}
+
+.note {
+  display: grid;
+  gap: 0.35rem;
+  border-radius: 1rem;
+  padding: 0.9rem 1rem;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.note span {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.note-documento {
+  background: rgba(230, 162, 60, 0.1);
+  border: 1px solid rgba(230, 162, 60, 0.4);
+  color: #f3d7a1;
+}
+
+.note-escenario {
+  background: rgba(110, 143, 78, 0.1);
+  border: 1px dashed rgba(110, 143, 78, 0.7);
+  color: #e7f0d8;
+}
+
+.note-correccion {
+  background: rgba(196, 73, 44, 0.12);
+  border: 1px solid rgba(255, 177, 161, 0.45);
+  color: #ffd7ce;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.field input,
+.field select,
+.field textarea {
+  border: 1px solid #e4d3bb;
+  border-radius: 0.75rem;
+  background: white;
+  color: #1a120b;
+  padding: 0.7rem 0.8rem;
+  font-weight: 500;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border-radius: 999px;
+  padding: 0.72rem 1.1rem;
+  font-size: 0.92rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.btn-primary {
+  background: #e6a23c;
+  color: #140e09;
+}
+
+.btn-ink {
+  background: #140e09;
+  color: #f7f1e7;
+}
+
+.btn-ghost {
+  border-color: rgba(231, 176, 122, 0.55);
+  color: #f3d7a1;
+  background: transparent;
+}
+
+.btn-line {
+  border-color: #c57a45;
+  color: #5a3822;
+  background: transparent;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+th {
+  text-align: left;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8a6244;
+  font-weight: 700;
+}
+
+th,
+td {
+  padding: 0.72rem 0.55rem;
+  border-bottom: 1px solid rgba(90, 56, 34, 0.12);
+  vertical-align: top;
+}
+
+.dark-table th {
+  color: #e7b07a;
+}
+
+.dark-table td,
+.dark-table th {
+  border-bottom-color: rgba(243, 215, 161, 0.12);
+}
+
+pre {
+  overflow: auto;
+  border-radius: 1rem;
+  background: #1a100b;
+  color: #f6efe4;
+  padding: 1rem;
+  font-size: 0.75rem;
+  line-height: 1.55;
+}
+
+meter {
+  width: 100%;
+  height: 0.85rem;
+}
+
+.kicker {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #e7b07a;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+
+  body::before,
+  .no-print {
+    display: none !important;
+  }
+
+  .paper {
+    box-shadow: none;
+  }
+}
